@@ -1,15 +1,15 @@
 # 시험 환경 만들기
 
-- mokokos 회원들
+- mokokos 회원들 (도움 문의 : 자케)
 
   1.  프로젝트 경로로 이동
   2.  `$ git checkout 본인이름` (자기 브랜치로 이동)
-  3.  `$ git pull origin dart-test` (dart-test의 브랜치의 내용을 pull 받음)
+  3.  `$ git pull --rebase origin dart-test` (dart-test의 브랜치의 내용을 pull 받음)
   4.  dart 폴더 생성되었는지 확인
   5.  01 폴더의 dart 파일 내부를 작성해 문제 해결
   6.  완성 한 후 add => commit => push
 
-- mokokos 비회원들
+- mokokos 비회원들 (도움 문의 : 노아)
   [다운로드](./01.zip)
   - 위 파일을 다운로드한 후 문제를 풉니다.
   - 완료한 이후에 다시 압축하여 슬랙으로 보냅니다.
@@ -20,8 +20,7 @@
 
 - dart SDK 공식 문서
   ```
-  $ brew install dart-lang/dart
-  $ brew install dart
+  $ brew install dart-sdk
   ```
 - vscode에서 dart 실행 방법
   `$ dart 파일이름.dart`
